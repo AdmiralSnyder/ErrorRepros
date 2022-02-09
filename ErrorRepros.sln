@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorRepro20220209_type_or_namespace_name_0", "ErrorRepro2020209_type_or_namespace_name_0\ErrorRepro20220209_type_or_namespace_name_0.csproj", "{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorRepro20220209_Lib", "ErrorRepro20220209_Lib\ErrorRepro20220209_Lib.csproj", "{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82FD1E01-AEA7-4EDC-9402-F2CC1ABD5DA2}
+	EndGlobalSection
+EndGlobal
