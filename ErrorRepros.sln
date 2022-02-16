@@ -3,27 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32127.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorRepro20220209_type_or_namespace_name_0", "ErrorRepro2020209_type_or_namespace_name_0\ErrorRepro20220209_type_or_namespace_name_0.csproj", "{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorRepro20220209_type_or_namespace_name_0", "ErrorRepro2020209_type_or_namespace_name_0\ErrorRepro20220209_type_or_namespace_name_0.csproj", "{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorRepro20220209_Lib", "ErrorRepro20220209_Lib\ErrorRepro20220209_Lib.csproj", "{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorRepro20220209_Lib", "ErrorRepro20220209_Lib\ErrorRepro20220209_Lib.csproj", "{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20220216_AsyncPackage_AsyncToolWindow", "20220216_AsyncPackage_AsyncToolWindow", "{2D55B8BB-104B-403A-A8BC-25B587328039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsixProjectWithToolWindowCommunity", "20220216_AsyncPackage_AsyncToolWindow\VsixProjectWithToolWindowCommunity\VsixProjectWithToolWindowCommunity.csproj", "{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Debug|x86.Build.0 = Debug|Any CPU
 		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A4D438C-9B3B-4E82-A645-3EA562BCEE12}.Release|x86.Build.0 = Release|Any CPU
 		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Debug|x86.Build.0 = Debug|Any CPU
 		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BC2C65D-F4F8-4C4B-A3A1-CC06710CFDD9}.Release|x86.Build.0 = Release|Any CPU
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Debug|x86.ActiveCfg = Debug|x86
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Debug|x86.Build.0 = Debug|x86
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Release|x86.ActiveCfg = Release|x86
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A4C27B8-8D3A-4A6A-800B-4B61F7F30203} = {2D55B8BB-104B-403A-A8BC-25B587328039}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82FD1E01-AEA7-4EDC-9402-F2CC1ABD5DA2}
