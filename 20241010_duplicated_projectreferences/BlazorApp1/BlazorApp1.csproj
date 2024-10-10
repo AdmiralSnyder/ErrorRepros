@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RazorClassLibrary1\RazorClassLibrary1.csproj" />
+    <!--here is the duplicated ProjectReference - if you comment it out, this error doesn't happen anymore:
+    The "FilterStaticWebAssetEndpoints" task failed unexpectedly.
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Microsoft.AspNetCore.StaticWebAssets.Tasks.FilterStaticWebAssetEndpoints.Execute()
+   at Microsoft.Build.BackEnd.TaskExecutionHost.Execute()
+   at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext()
+
+    -->
+      <ProjectReference Include="..\RazorClassLibrary1\RazorClassLibrary1.csproj" />
+  </ItemGroup>
+
+
+</Project>
